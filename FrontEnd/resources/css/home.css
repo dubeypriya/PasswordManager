@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+.navButtons{
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+#btn1{
+    padding-left: 730px
+  }
+  #btn2{
+    padding-left: 1000px
+  } 
+td{
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: lightgray;
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+  }
+  

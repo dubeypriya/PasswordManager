@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web based Password Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resources/css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/home.js"></script>
+</head>
+
+<body>
+    <h3 class="center">Web based Password Manager</h3>    
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link navButtons" href="javascript:editPassword();">Edit</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:deletePassword();">Delete</a>
+        </li>
+        <li class="nav-item" id="btn1">
+            <a class="nav-link" href="generatePassword.html">Generate New Password</a>
+        </li>
+    </ul>
+    <div class="container">
+        <table id="savedPasswords" style="width:100%">           
+                <tr>
+                    <th width="5%" class="center">
+                        <form>
+                            <input type="checkbox" onClick="toggle(this)">
+                        </form>
+                    </th>
+                    <th width="20%">Website Name</th>
+                    <th>Password</th>
+                </tr>
+        </table>
+    </div>
+    <a class="nav-link" id="btn2"" href=" generatePassword.html">Generate New Password</a>
+
+
+   
+</body>
+
+</html>
